@@ -2,11 +2,10 @@ package chat.system.Chat.system.model;
 
 import lombok.*;
 
-@Getter
-@Setter
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
-@ToString
+
 public class Message {
     private  String senderName;
     private  String receiverName;
